@@ -1,3 +1,10 @@
+import React from 'react';
+import { render } from 'react-dom';
+import App from './components/App.js';
+
+render(<App />, document.getElementById('app'));
+
+/*
 const table = document.getElementsByTagName('table')[0]
 const select = document.getElementsByTagName('select')[0]
 const button = document.getElementById('add-row')
@@ -42,3 +49,4 @@ function addMouseOver () {
 function removeMouseOver () {
   table.removeEventListener('mouseover', colorize)
 }
+*/
